@@ -1,0 +1,15 @@
+#page-heading{
+    text-align: center;
+}
+main{
+    width: 85%;
+    margin: 20px auto;
+}
+#users-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.img-div{
+    cursor: pointer;
+}
